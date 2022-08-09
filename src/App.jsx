@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+//通常exportの場合は分割代入で取り出す
+//export defaultの場合は分割代入なしで名前を任意につけて取り出すことが可能
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   console.log("最初");
